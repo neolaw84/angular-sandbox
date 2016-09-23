@@ -2,7 +2,7 @@
   "name": "angular-sandbox",
   "version": "1.0.0",
   "description": "sandbox environment/project for AngularJS",
-  "main": "assignment1-solutions/js/app.js",
+  "main": "assignment2-solutions/js/app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
