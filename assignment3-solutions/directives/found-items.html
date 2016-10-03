@@ -1,0 +1,11 @@
+<p>
+    <ul>
+        <li ng-repeat="item in dirCtrl.items">
+            {{item.name}}, {{item.short_name}}, {{item.description}}
+            <button ng-click = "dirCtrl.onRemove({index : $index});">Don't want this</button>
+        </li>
+    </ul>
+</p>
+<p ng-if="dirCtrl.itemsEmpty">
+    Nothing found.
+</p>
